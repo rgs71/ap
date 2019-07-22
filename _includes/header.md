@@ -1,4 +1,4 @@
-# [CS50 AP]({{ "/" | relative_url }})
+# [RGS71 AP]({{ "/" | relative_url }})
 
-Harvard University\\
-2018–2019
+Rhein-Gymnasium Sinzig\\
+2019–2020
