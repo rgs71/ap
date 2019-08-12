@@ -22,9 +22,12 @@ Der Lehrplan sieht die folgenden sechs Blöcke vor:
 + Informatische Modellierung
 + Software-Entwicklung
 
-### Unit 0
+### Stunde 0
 
-Computers and Computing. How Computers Work. Binary and ASCII. Logic and Processors. Memory. Algorithms.
++ Notengebung, Materialien, Überblick.
++ Einführung in die [Sandbox-Umgebung](https://sanbox.cs50.io). 
++ [Git](https://www.git-scm.com), [Github](https://www.github.com) und [Classroom](https://classroom.github.com).
++
 
 ### Unit 1
 
