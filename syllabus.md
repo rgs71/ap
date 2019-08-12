@@ -11,27 +11,16 @@ Dort siehst Du auch einen Überblick über die vielen Aspekte, die der Informati
 Den Lehrplan für die Oberstude findest Du auf dem [Bildungsserver](https://static.bildung-rp.de/lehrplaene/gymnasium/Informatik_LP_SekII.pdf).
 
 
-## Overview
+## Überblick
 
-Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around seven so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
-1.	Creativity
-2.	Abstraction
-3.	Data and Information
-4.	Algorithms
-5.	Programming
-6.	The Internet
-7.	Global Impact
-<br>
+Der Lehrplan sieht die folgenden sechs Blöcke vor:
 
-And the six computational thinking practices are:
-
-* P1. Connecting Computing
-* P2. Creating Computational Artifacts
-* P3. Abstracting
-* P4. Analyzing Problems and Artifacts
-* P5. Communicating (both orally and in writing)
-* P6. Collaborating
-
++ Informationen und ihre Darstellung
++ Aufbau und Funktionsweise eines Rechners
++ Kommunikation in Rechnernetzen
++ Algorithmisches Problemlösen
++ Informatische Modellierung
++ Software-Entwicklung
 
 ### Unit 0
 
