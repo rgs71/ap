@@ -2,55 +2,14 @@
 
 ###### [Download the full syllabus as a PDF with mappings to the AP CSP Framework's Learning Objectives](https://dl.dropboxusercontent.com/s/f2srub4nxf2dx6c/Syllabus%202018-19.pdf?dl=0)
 
-## Description
+## Das elektronische Schulbuch
 
-CS50 is Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming for students with a diversity of technological background and experience. CS50 for AP Computer Science Principles is an adaptation of CS50 specifically tailored to align with the AP Computer Science Principles curriculum framework. The course’s assignments, materials, and resources are all identical to the version of the course taught at the college-level, albeit adapted to suit a secondary school audience.
+Für das Fach Informatik wird kein eigenes Schulbuch benötigt. Einige engagierte Lehrerinnen und Lehrer haben aber gemeinsam das *elektronische Schulbuch* für Rheinland-Pfalz erstellt. Die aktuelle Fassung gibt es immer auf der Seite [inf-schule.de](https://www.inf-schule.de).
 
-Among this course’s objectives is to supply students with a comprehensive introduction to the fundamentals of the discipline of computer science. We will do so using programming in several different languages as a vehicle to introduce these fundamentals, including such topics as algorithms, abstraction, data, global impact, and internet technologies. Though the course is programming-heavy, it should be stressed that this is not a “programming course”; rather, this course should be considered one of problem-solving, creativity, and exploration. By year’s end, students will have a richer understanding of the key principles of the discipline of computer science. Students will be able to speak intelligently about how computers work and how they enable us to become better problem-solvers, and will hopefully be able to communicate that knowledge to others.
+Dort siehst Du auch einen Überblick über die vielen Aspekte, die der Informatikunterricht abdeckt. 
 
-Whether students elect to take no other computer science courses in their lifetime or consider this class the first step in a longer course of study, it is our sincere hope that they feel more comfortable with—and indeed sometimes skeptical of—the technologies that surround us each day.
+Den Lehrplan für die Oberstude findest Du auf dem [Bildungsserver](https://static.bildung-rp.de/lehrplaene/gymnasium/Informatik_LP_SekII.pdf).
 
-## Expectations
-
-Students are expected to submit all problems! If students would like to receive AP credit they will need to take the [AP CSP Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam) and complete the [Create and Explore Tasks](https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf).
-
-## Prerequisites
-
-The only background required for CS50 for AP Computer Science Principles is completion of Algebra I or its equivalent.
-
-## Books
-
-No books are required for this course. However, students may want to supplement their preparation for or review of some lectures with self-assigned readings relevant to those lectures' content from either of the books below. The first is intended for those inexperienced in (or less comfortable with the idea of) programming. The second is intended for those experienced in (or more comfortable with the idea of) programming.
-
-### For Those Less Comfortable
-
-* _C Programming Absolute Beginner's Guide_, Third Edition  
-Greg Perry, Dean Miller  
-Pearson Education, 2014  
-ISBN 0-789-75198-4
-
-### For Those More Comfortable
-
-* _Programming in C_, Fourth Edition  
-Stephen G. Kochan  
-Pearson Education, 2015  
-ISBN 0-321-77641-0
-<br>
-
-The book below is recommended for those interested in understanding how their own computers work for personal edification.
-
-* _How Computers Work_, Ninth Edition  
-Ron White  
-Que Publishing, 2008  
-ISBN 0-7897-3613-6
-<br>
-
-This last book below is recommended for aspiring hackers, those interested in programming techniques and low-level optimization of code for applications beyond the scope of this course.
-
-* _Hacker's Delight_, Second Edition  
-Henry S. Warren Jr.  
-Pearson Education, 2013  
-ISBN 0-321-84268-5  
 
 ## Overview
 
