@@ -8,5 +8,5 @@ Zur Nutzung vieler [CS Tools](https://rgs71.github.io/ap/tools) ist ein solcher 
 
 # Git Classroom
 
-Um den Schülerinnen und Schülern Aufgaben leicht verteilen zu können -  und auch um während der Bearbeitung Hilfen geben zu können - bietet sich die Verwendung des Github Classrooms an. Du kannst das Prozedere der Registrierung auf der folgenden Seite, die die Schülersicht zeigt anschauen. Wenn Du dann dem Einladungslink zur [Hausaufgabe 0](https://classroom.github.com/a/6tt0j4_E) folgst, kannst Du dem Classroom beitreten. Bitte ordne dabei Deinen Github-Account Deinem MNS+-Benutzernamen zu, so dass eine eindeutige Zuordnung entsteht.
+Um den Schülerinnen und Schülern Aufgaben leicht verteilen zu können -  und auch um während der Bearbeitung Hilfen geben zu können - bietet sich die Verwendung des Github Classrooms an. Du kannst das Prozedere der Registrierung auf der folgenden [Seite](https://github.com/jfiksel/github-classroom-for-students), die die Schülersicht zeigt anschauen. Wenn Du dann dem Einladungslink zur [Hausaufgabe 0](https://classroom.github.com/a/6tt0j4_E) folgst, kannst Du dem Classroom beitreten. Bitte ordne dabei Deinen Github-Account Deinem MNS+-Benutzernamen zu, so dass eine eindeutige Zuordnung entsteht.
 
