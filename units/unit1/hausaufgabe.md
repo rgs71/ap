@@ -1,4 +1,4 @@
-## Hausaufgabe
+## Hausaufgabe für diese Stunde
 
 Als Hausaufgabe waren die folgenden Dinge zu erledigen:
 

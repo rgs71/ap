@@ -13,3 +13,7 @@ Das Dateiversionierungs-Programm [Git](https://www.git-scm.com/) bietet einige i
 + Dateien in ein Git Repository einfügen
 + Änderungen ans Git Repository übermitteln
 + Status des Repositories anzeigen
+
+## Neue Hausaufgabe
+
+### Der Link zu unserer neuen Hausaufgabe im Github Classroom ist [hier]()!
