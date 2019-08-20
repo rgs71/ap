@@ -16,4 +16,4 @@ Das Dateiversionierungs-Programm [Git](https://www.git-scm.com/) bietet einige i
 
 ## Neue Hausaufgabe
 
-### Der Link zu unserer neuen Hausaufgabe im Github Classroom ist [hier]()!
+### Der Link zu unserer neuen Hausaufgabe im Github Classroom ist [hier](https://classroom.github.com/a/3J9DrNz9)!
