@@ -1,28 +1,35 @@
 # Darstellung von Eingaben
 
+* Wir benötigen eine stadartisierte Darstellung von Eingaben zu unseren Problemen.
 
-* We need a way to represent inputs in some standard way, and if our problem were to simply count the number of people in the lecture hall, we'd have many options. We could write tally marks on a board, or use our hands. In fact, with just one hand, we can use our fingers creatively: with just our thumb up, we could represent one; with our just index finger up, we could represent two; with both our thumb and index finger up, we could represent three. And by continuing to use a pattern of permutations, we could represent 32 different values with just five fingers!
+* Beispiel: Zählen
+    > Wir wollen die Anzahl der Personen in einem Raum zählen.
 
-## Binary
+* Es gibt verschiedene Möglichkeiten:
 
-* A computer, at the lowest level, stores data in binary, where there are just two digits, 0 and 1. And that maps to how our computers use electricity, which is easy to turn off or on.
-* As humans, we know the following represents one hundred and twenty-three.
-  ```
-  1 2 3
-  ```
-  * The `3` is in the ones column, the `2` is in the tens column, and the `1` is in the hundreds column.
-  * So `123` is 100×1 + 10×2 + 1×3 = 100 + 20 + 3 = 123.
-* In binary, with just two digits, we have powers of two for each place value:
-  <pre>
-  4 2 1
-  <b>0 0 0</b>
-  </pre>
-  * This would still be equal to 0.
-* Now if we change the binary value to, say, `0 1 1`, the decimal value would be 3.
-  <pre>
-  4 2 1
-  <b>0 1 1</b>
-  </pre>
+    - 
+
+    -   
+
+    -   
+
+
+
+## Binärzahlen
+
+* Computer speichern Daten auf der unteresten Ebene als binäre Daten in Bits (**bi**nary digi**ts**).
+
+* Die einzigen Speicherzustände sind 0 und 1, was mit Elektrizität an und aus korresponiert.
+
+* Wir rechnen im Zehnersystem:
+
+    $ (123)_{10} = 1 \cdot 10^2 + 2 \cdot 10^1 + 3 \cdot 10^0$
+
+* Im Binärsystem (Zweiersystem) stehen die entsprechenden Stellen für Potenzen von 2.
+
+    $(1101)_2 = 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0$
+
+* Mit 
 * With enough bits, or binary digits, computers can count much higher.
 * To represent letters, all we need to do is decide how numbers map to letters. Some humans, many years ago, collectively decided on a standard mapping called [ASCII](https://en.wikipedia.org/wiki/ASCII). The letter "A", for example, is the number 65, and "B" is 66, and so on.
   * A byte is 8 bits, and we use that as a unit to manage bits. The number 72, for example, fits into one byte.
