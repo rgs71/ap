@@ -1,179 +1,46 @@
 ## Algorithms
 
-* So now we can represent inputs and outputs. Inputs and outputs can come in various forms, such as tactile, audio, visual, or text. The black box earlier will contain *algorithms*, step-by-step instructions for solving a problem:<br>
-  ![box with word "algorithms"](algorithms.png)
-* Let's say we wanted to find a friend, Mike Smith, in a phone book.
-  * We could start by flipping through the book, one page at a time, until we find Mike Smith or reach the end of the book.
-  * We could also flip two pages at a time, but if we go too far, we'll have to know to go back a page.
-  * But the most efficient way would be opening the phone book to the middle, decide whether Mike will be in the left half or right half of the book (because the book is alphabetized), and immediately throw away half of the problem. We can repeat this, dividing the problem in half each time.
-*  In fact, we can represent the efficiency of each of those algorithms with a chart:<br>
-  ![chart with: "size of problem" as x-axis; "time to solve" as y-axis; red, steep straight line from origin to top of graph labeled "n"; yellow, less steep straight line from origin to top of graph labeled "n/2"; green, curved line that gets less and less steep from origin to right of graph labeled "log n"](running_time.png)
-  * Our first solution, one page at a time, is like the red line: our time to solve increases linearly as the size of the problem increases.
-  * The second solution, two pages at a time, is like the yellow line: our slope is less steep, but still linear.
-  * Our final solution, is like the green line: logarithmic, since our time to solve rises more and more slowly as the size of the problem increases. In other words, if the phone book went from 1000 to 2000 pages, we would need one more step to find Mike. If the size doubled again from 2000 to 4000 pages, we would still only need one more step.
-* Instinctively, we knew how to solve this problem since we have encountered it in our day lives, but what if we didn't? We can think about solving a problem or designing a program with different strategies, including but not limited to:
-  * brainstorming
-  * planning and storyboarding
-  * organizing the problem into several components or parts and solving each one modularly
-  * creating diagrams or flow charts
-  * developing a set of tests check if your program does the desired task
-* It is important to investigate multiple solutions based on the constraints of the problem to find the most efficient solution for the desired user. Some methods for investigating are:
-  * collecting data via surveys
-  * user testing
-  * interviewing future users
-  * direct observations
-* Interviewing future users play a large role in the development process as they can help provide multiple perspectives that the developer may not have thought about.
+* Zwischen den Ein- und Ausgaben steht unsere *black box*, die die Verabreitung übernimmt. In vielen Fällen wird es sich dabei um einen **Algorithmus** handeln, d.h. eine präzise Anweisungen, die nachvollziehbar aus den Eingaben zu den Ausgaben führen.
+
+* Beispiel: Suche im Telefonbuch
+  - Algorithmus 1: Blättere von vorne nach hinten und überprüfe jede Seite nach dem gesuchten Namen
+  - Algorithmus 2: Schlage jede zweite Seite auf und suche nach dem Namen
+  - Algorithmus 3: Schlage die Mitte auf, falls der Name nicht sort steht arbeite mit der alphabetisch richtigen Hälfte und wiederhole solange, bis der Name gefunden wurde.
+
+
+  * Algorithmus 1 und 3 sind korrekt und führen sicher zu richtigen Ausgabe, Algorithmus 2 könnte den Namen überblättern. Aber Algorithmus 3 ist für große Eingaben (Telefonbuch mit vielen Seiten) der effizientere Algorithmus!
 
 ## Pseudocode
 
-* We can write *pseudocode*, an informal syntax that is just a more specific version of English (or other human language) that represents our algorithm:
+* Wir können in *Pseudocode*, einer unformalen Syntax die etwas spezifischer als gewöhnliches Deutsch ist, einen Algorithmus beschreiben:
   <pre>
-   0 pick up phone book
-   1 open to middle of phone book
-   2 look at names
-   3 if Smith is among names
-   4     call Mike
-   5 else if Smith is earlier in book
-   6     open to middle of left half of book
-   7     go back to step 2
-   8 else if Smith is later in book
-   9     open to middle of right half of book
-  10     go back to step 2
-  11 else
-  12     quit
+   0 <b>nehme</b> das Telefonbuch
+   1 <b>öffne</b> das Telefonbuch auf der mittleren Seite
+   2 <b>sehe</b> Dir die Namen an
+   3 <b>falls</b> Meyer unter den Namen ist
+   4     <b>rufe</b> Meyer an
+   5 <b>sonst falls</b> Meyer früher im Buch vorkommt
+   6     <b>öffne</b> die Mitte der vorderen Hälfte
+   7     <b>gehe zu </b> Schritt 2
+   8 <b>sonst</b> falls Meyer später im Buch vorkommt
+   9     <b>öffne</b> die Mitte der hinteren Hälfte
+  10     <b>gehe zu </b> Schritt 2
+  11 <b>sonst</b>
+  12     <b>stoppe</b>
   </pre>
-* Some of these lines start with verbs, or actions. We'll start calling these *functions*:
-  <pre>
-   0 <b>pick up</b> phone book
-   1 <b>open to</b> middle of phone book
-   2 <b>look at</b> names
-   3 if Smith is among names
-   4     <b>call</b> Mike
-   5 else if Smith is earlier in book
-   6     <b>open</b> to middle of left half of book
-   7     go back to step 2
-   8 else if Smith is later in book
-   9     <b>open</b> to middle of right half of book
-  10     go back to step 2
-  11 else
-  12     <b>quit</b>
-  </pre>
-* We also have questions that lead to different paths, like forks in the road, which we'll call *conditions*:
-  <pre>
-   0 pick up phone book
-   1 open to middle of phone book
-   2 look at names
-   3 <b>if</b> Smith is among names
-   4     call Mike
-   5 <b>else if</b> Smith is earlier in book
-   6     open to middle of left half of book
-   7     go back to step 2
-   8 <b>else if</b> Smith is later in book
-   9     open to middle of right half of book
-  10     go back to step 2
-  11 <b>else</b>
-  12     quit
-  </pre>
-* And the answers to questions that decide where we go are called *Boolean expressions*, which eventually result to a value of true or false:
-  <pre>
-   0 pick up phone book
-   1 open to middle of phone book
-   2 look at names
-   3 if <b>Smith is among names</b>
-   4     call Mike
-   5 else if <b>Smith is earlier in book</b>
-   6     open to middle of left half of book
-   7     go back to step 2
-   8 else if <b>Smith is later in book</b>
-   9     open to middle of right half of book
-  10     go back to step 2
-  11 else
-  12     quit
-  </pre>
-* Finally, we have words that lead to cycles, where we can repeat parts of our program, called *loops*:
-  <pre>
-   0 pick up phone book
-   1 open to middle of phone book
-   2 look at names
-   3 if Smith is among names
-   4     call Mike
-   5 else if Smith is earlier in book
-   6     open to middle of left half of book
-   7     <b>go back to step 2</b>
-   8 else if Smith is later in book
-   9     open to middle of right half of book
-  10     <b>go back to step 2</b>
-  11 else
-  12     quit
-  </pre>
+
+* Einige der Schritte starten mit Verben, die man später als *Funktionen* beschreiben würde.
+
+* Außerdem kommen Fragen vor, deren Antwort richtig oder falsch sein können, solche Beziehungen werden als *Bedingungen* bezeichnet.
+
+* Da wir abhängig von solchen Bedingungen unterschiedliche Schritte ausführen, bezeichnet man eine solche *falls*-*sonst wenn*-*sonst* Konstruktion als *Fallunterscheidung*.
+
+* Die Teile des Codes, die durch zurückgehen mehrfach durchgeführt werden, heißen *Wiederholungen* 
 
 ## Scratch
 
-* We can write programs with the building blocks we just discovered:
-  * functions
-  * conditions
-  * Boolean expressions
-  * loops
-* We'll use a graphical programming language called [Scratch](https://scratch.mit.edu/), where we'll drag and drop blocks that contain instructions.
-* Later in our course, we'll move onto textual programming languages like C, and Python, and JavaScript. All of these languages, including Scratch, has more powerful features like:
-  * variables
-    * the ability to store values and change them
-  * threads
-    * the ability for our program to do multiple things at once
-  * events
-    * the ability to respond to changes in our program or inputs
-  * ...
-* David's first program in Scratch was [Oscartime](https://scratch.mit.edu/projects/76196420/), which we play with a volunteer. The game involves clicking and dragging trash that falls from the top of the screen:<br>
-  ![screenshot of oscartime, with cartoon image of shoe being dropped into a cartoon image of trash can](oscartime.png)
-  * We can already start to decompose the program for the game:
-    * The animation of the trash can is a sequence of 3 images, displayed one after another.
-    * The score was being stored in a variable, and increased with each piece of trash we dragged.
-* The programming environment for Scratch looks like this:<br>
-  ![screenshot of scratch](scratch.png)
-  * On the left, we have puzzle pieces that represent functions or variables, or other concepts, that we can drag and drop into our instruction area in the center.
-  * On the right, we have a stage that will be shown by our program to a human, where we can add or change backgrounds, characters (called sprites in Scratch), and more.
-* We can drag a few blocks to make Scratch say "hello, world":<br>
-  ![screenshot of hello, world](hello_world.png)
-  * The "when green flag clicked" block is the start of our program, and below it we've snapped in a "say" block and typed in "hello, world".
-* We can also drag in the "ask and wait" block, with a question like "What's your name?", and combine it with a "say" block for the answer:<br>
-  ![screenshot of question and answer](answer.png)
-* We can use the "join" block to combine two phrases so Scratch can say "hello, David":<br>
-  ![screenshot of join](join.png)
-  * Notice that we can nest instructions and variables.
-* We can try to make Scratch (the name of the cat) say meow:<br>
-  ![three blocks labeled "start sound Meow", one after the other](meow.png)
-  * But when we click the green flag, we only hear the meow sound once. Our first bug, or mistake! It turns out that computers can do things really quickly, so it went to each block, started playing the sound, and moved on to the next block. So all three "meow"s overlapped and sounded like one.
-* We can fix this with "play sound until done", and even "wait" before we say meow again:<br>
-  ![three blocks labeled "play sound Meow until done", with a "wait 1 second" block between each](meow_wait.png)
-* We can copy and paste these blocks over and over again, but our program can have better design if we use a loop, like the "forever" block:<br>
-  ![blocks labeled "play sound Meow until done" and "wait 1 second", nested inside a block that is labeled "forever"](forever.png)
-* We have another program, [counting sheep](https://scratch.mit.edu/projects/26329219/):<br>
-  ![blocks labeled "set counter to 1", "forever", "say counter for 1 seconds", "wait 1 seconds", "change counter by 1"](count.png)
-  * Here, "counter" is a variable where we store a value, and increase it every time our sheep says it.
-* We can have our sheep double the counter each time, and if we wait a while, eventually the sheep gives up and says "infinity". Since computers has to store values physically, there is only a finite number of bits. The programmer (in this case, the writers of the Scratch language) will have to decide on a limit to how many bits are used for each type of variable, as well as how to handle reaching those limits.
-* We can tinker with other blocks, and have Scratch meow when we "pet" him with our mouse pointer:<br>
-  ![blocks labeled "forever", "if touching mouse pointer then", "play sound meow until done"](pet-0.png)
-  * We need the "forever" block because, otherwise, our program would check that condition at the very beginning, and then stop.
-* We can also use the "if else" block to have different sounds play depending on the condition.
-* With a few more blocks, we can make Scratch move on the screen, left and right:<br>
-  ![blocks labeled "set rotation style left-right", "forever", "move 10 steps", "if touching edge then", "turn 180 degrees"](bounce.png)
-* And if we find some images of Scratch with his legs in various positions, we can even simulate walking:<br>
-  ![blocks labeled "set rotation style left-right", "forever", "move 10 steps", "if touching edge then", "turn 180 degrees", "next costume"](costume.png)
-  * In another tab called "Costumes", we can set what Scratch looks like in each frame. And animation is just a more complex version of this.
-* By exploring what other blocks we have available, we can have Scratch follow us with blocks like "point toward mouse cursor".
-* We can also have multiple scripts, or snippets of code, in the same program:<br>
-  ![two sets of blocks, each under a "when green flag clicked" block. the first set of blocks is: "set muted to false", "forever", "if key space pressed then", "if muted = false then", "set muted to true", "else", "set muted to false", "wait 1 seconds". the second set is: "forever", "if muted = false then", "start sound SeaLion", "think hi hi hi for 2 seconds", "wait 1 seconds"](seal.png)
-  * With the space bar, we can change the value of the variable called "muted", and the second script will play the sound or not depending on the value of "muted".
-* With events, we can have two sprites, each with their own script, interact with each other:<br>
-  ![blocks labeled "forever", "if key space pressed? then", "say Marco for 2 seconds", "broadcast event"](marco.png)<br>
-  ![blocks labeled "when I receive event", "say Polo for 2 seconds"](polo.png)
-  * We put these sets of blocks on different sprites, and now when we click the green flag, one says "Marco" and the other says "Polo" on its own!
-* One sign of a poorly designed program is one where we copy and paste the same code over and over again. The acronym of DRY, or "Don't Repeat Yourself", is a good reminder. For example, instead of duplicating the same blocks, we can use a "repeat" block to do something over and over again.
-* The next step is abstracting away some of our code into a function. We can make a block called "cough" and put some blocks inside it:<br>
-  ![two sets of blocks. the first set of blocks is: "define cough", "say cough for 1 seconds", "wait 1 seconds". the second set is: "when green flag clicked", "repeat 3", "cough"](cough_function.png)
-  * Now, all of our sprites can use the same "cough" block, in as many places as we'd like.
-* We can even put a number of times into our cough function, so we only need a single block to cough any number of times:<br>
-  ![two sets of blocks. the first set of blocks is: "define cough n times", "repeat n", say cough for 1 seconds", "wait 1 seconds". the second set is: "when green flag clicked", "cough 3 times"](cough_function_2.png)
-* As we use higher-level programming languages, we'll see more examples of how collections of code written by others, called libraries, will be useful for us to write programs of our own.
-* We play more examples of interactive games, written by former students.
-* Welcome aboard!
+* einfache grafische Programmiersprache, mit der man vor allem Figuren auf einer Bühne steuert.
+
+* Alle wesentlichen Elemente einer vollständigen Programmiersprache sind vorhanden.
+
+* Die Ergebnisse sind durch die graphische Darstellung sofort überprüfbar.
