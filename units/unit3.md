@@ -1,6 +1,6 @@
 # Stunde 3
 
-* Besprechnen der Hausaufgaben
+* Besprechen der Hausaufgaben
 
 * [Scratch vs. Python]({{"/units/unit3/sratchvspython" | relative_url }})
 
