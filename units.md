@@ -6,4 +6,4 @@
 
 * [Stunde 2]({{ "/units/unit2" | relative_url}})
 
-* [Stunde 3]({{ "/units/unit3" | re4lative_url}})
+* [Stunde 3]({{ "/units/unit3" | relative_url}})
