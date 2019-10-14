@@ -11,3 +11,5 @@
 * [Stunde 4]({{ "/units/unit4" | relative_url }})
 
 * [Stunde 5]({{ "/units/unit5" | relative_url }})
+
+* [Stunde 6]({{ "/units/unit6" | relative_url }})
