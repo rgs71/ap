@@ -4,9 +4,9 @@
 Die Definition einer Primzahl ist für uns:
 > Eine Zahl ist eine Primzahl, wenn die Teilermenge **genau** zwei Teiler enthält.
 
-Die Teilermenge von $7$ ist $T_7 = \{1, 7\}$, daher ist $7$ eine Primzahl.
+Die Teilermenge von 7 ist T_7 = {1, 7}, daher ist 7 eine Primzahl.
 
-Die Teilermenge von $4$ ist $T_4=\{1, 2, 4\}$, daher ist $4$ keine Primzahl.
+Die Teilermenge von 4 ist T_4={1, 2, 4}, daher ist 4 keine Primzahl.
 
 ## Primzahltest
 
