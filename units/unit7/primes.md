@@ -21,6 +21,7 @@ Für die Zahl 7:
 | Teilt? | Ja | Nein | Nein | Nein | Nein | Nein | Ja |
 
 Für die Zahl 6:
+
 | Zahl | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | Teilt? | Ja | Ja | Ja | Nein | Nein | Ja |
