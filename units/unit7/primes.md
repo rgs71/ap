@@ -62,5 +62,5 @@ Durch eine Aufruf wie `is_prime(7)` kann man dann den Primzahltest für 7 durchf
 
 Wie das Programm abläuft kann man mit Hilfe des [Python-Tutors](http://www.pythontutor.com/visualize.html#mode=edit) ansehen.
 
-<iframe width="800" height="500" frameborder="0" src="http://pythontutor.com/iframe-embed.html#code=def%20is_prime%28n%29%3A%0A%20%20%20%20k%20%3D%202%0A%20%20%20%20while%20k%20%3C%20n%3A%0A%20%20%20%20%20%20%20%20if%20n%20%25%20k%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20False%0A%20%20%20%20%20%20%20%20k%20%3D%20k%20%2B%201%0A%20%20%20%20return%20True%0A%20%20%20%20%0Aprint%28is_prime%281007%29%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
 
