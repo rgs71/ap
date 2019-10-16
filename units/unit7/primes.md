@@ -22,7 +22,7 @@ Für die Zahl 7:
 
 Für die Zahl 6:
 | Zahl | 1 | 2 | 3 | 4 | 5 | 6 |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | Teilt? | Ja | Ja | Ja | Nein | Nein | Ja |
 
 ## Darstellungen des Algorithmus
