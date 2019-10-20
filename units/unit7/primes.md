@@ -59,10 +59,24 @@ def is_prime(n):
     return True
 ```
 
-Durch eine Aufruf wie `is_prime(7)` kann man dann den Primzahltest für 7 durchführen. Je nachdem, wo man die Funktion ausführt, ist es notwendig ggf. noch den Rückgabewert auszugeben, d.h. `print(is_prime(7))`. In einer REPL-Sitzung (Read-**Print**-Eval-Loop), wird ja automatisch das Ergebnis ausgegeben.
+Durch eine Aufruf wie `is_prime(7)` kann man dann den Primzahltest für 7 durchführen. Allerdings enthält der Code noch eine kleinen Fehler, denn für `n = 1` liefert die Funktion `is_prime` den Rückgabewert `True` zurück, was aber nicht gewünscht ist.
+
+Ändert man die letzte Zeile in `return n > 1` wird durch Python der Ausdruck `n > 1` ausgewertet. Für `n = 1` ergibt es den gewünschten Wert `False` zurück, wenn `n` größer als 1 ist, wie gewünscht `True`.
+
+Insgesamt erhält man also
+```python
+def is_prime(n):
+    k = 2
+    while k < n:
+        if n % k == 0:
+            return False
+        k = k + 1
+    return n > 1
+```
+Je nachdem, wo man die Funktion ausführt, ist es notwendig ggf. noch den Rückgabewert auszugeben, d.h. `print(is_prime(7))`. In einer REPL-Sitzung (Read-**Print**-Eval-Loop), wird ja automatisch das Ergebnis ausgegeben.
 
 Wie das Programm abläuft kann man mit Hilfe des [Python-Tutors](http://www.pythontutor.com/visualize.html#mode=edit) ansehen.
 
-[Primzahltest bei Python-Tutor](http://www.pythontutor.com/visualize.html#code=def%20is_prime%28n%29%3A%0A%20%20%20%20k%20%3D%202%0A%20%20%20%20while%20k%20%3C%20n%3A%0A%20%20%20%20%20%20%20%20if%20n%20%25%20k%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20False%0A%20%20%20%20%20%20%20%20k%20%3D%20k%20%2B%201%0A%20%20%20%20return%20True%0A%20%20%20%20%0Aprint%28is_prime%281007%29%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
+[Primzahltest bei Python-Tutor](http://www.pythontutor.com/visualize.html#code=def%20is_prime%28n%29%3A%0A%20%20%20%20k%20%3D%202%0A%20%20%20%20while%20k%20%3C%20n%3A%0A%20%20%20%20%20%20%20%20if%20n%20%25%20k%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20False%0A%20%20%20%20%20%20%20%20k%20%3D%20k%20%2B%201%0A%20%20%20%20return%20n%20%3E%201%0A%20%20%20%20%0Aprint%28is_prime%287%29%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 
 
