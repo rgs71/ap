@@ -61,7 +61,7 @@ def guessing_game():
     y = -1
     while x != y:
         y_str = input("Geratene Zahl: ")
-        y = int(y)
+        y = int(y_str)
         if x < y:
             print("Die gesuchte Zahl ist kleiner.")
         elif x > y:
