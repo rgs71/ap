@@ -1,5 +1,7 @@
 # Übungen für die Kursarbeit
 
+[Link zur Hausaufgabe](https://classroom.github.com/a/2EGiwXho)
+
 ## Die Lösungen bitte erst später ansehen bzw. bei großer Verzweiflung
 
 ### Aufgabe 1: Umwandlung von Visualisierungen beim Programmentwurf
