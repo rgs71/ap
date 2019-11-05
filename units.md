@@ -18,4 +18,4 @@
 
 * [Stunde 8]({{ "/units/unit8" | relative_url }})
 
-* [Musterlösung Kursarbeit 11.1]({{ "/units/KA" | relative_url }})
+* [Musterlösung Kursarbeit 11.1]({{ "/units/ka" | relative_url }})
