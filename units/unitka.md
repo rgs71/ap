@@ -1,6 +1,6 @@
 # Musterlösung zur Kursarbeit
 
-[Klausuraufgaben](ka.pdf)
+[Klausuraufgaben](/unitka/ka.pdf)
 
 * [Aufgabe 1]({{"/units/unitka/a1" | relative_url }})
 
