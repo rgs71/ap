@@ -6,4 +6,4 @@
 
 * [Nachschlagemöglichkeiten]({{"/units/unit10/selfhtml" | relative_url }})
 
-* [Hausaufgabe]({{"/units/unit10/basis" | relative_url }})
+* [Hausaufgabe]({{"/units/unit10/ha10" | relative_url }})
