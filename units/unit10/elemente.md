@@ -108,3 +108,13 @@ Das (verpflichtende) `alt`-Attribut ist bei fehlendem Bild oder für die barrier
 erhält man dann den alternativ Text:
 
 <img src="https://wiki.selfhtml.org/images/7/70/SchaukelstuhlX.jpg" alt="Ein Schaukelstuhl">
+
+## [Verweise](https://wiki.selfhtml.org/wiki/HTML/Textauszeichnung/a)
+
+```html
+<a href="https://rgs71.github.io/ap/">Beste Webseite ever</a>
+```
+
+ergibt:
+
+<a href="https://rgs71.github.io/ap/">Beste Webseite ever</a>
