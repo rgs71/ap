@@ -1,5 +1,5 @@
 # Schöne Mathematik
 
-$x+y=0$
+Inline $x+y=0$ Latex.
 
-$$ e^{i\pi}+1=0$$
+Display Math: $$ e^{i\pi}+1=0$$
