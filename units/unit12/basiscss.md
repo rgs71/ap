@@ -6,26 +6,26 @@
 
 Jedes HTML-Element kann durch das Universalattribut `style` formatiert werden.
 
-* HTML-Code ohne `style`-Attribut  
+* HTML-Code ohne `style`-Attribut:  
     ```html
     <section> 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
     ```
 
-* Ergebnis ohne `style`-Attribut  
+* Ergebnis ohne `style`-Attribut:  
     <section style="padding: 25px;">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
 
-* HTML-Code mit `style`-Element  
+* HTML-Code mit `style`-Element:  
     ```html
     <section style="color: darkred;"> 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
     ```
 
-* Ergebnis mit `style`-Attribut  
+* Ergebnis mit `style`-Attribut:  
     <section style="padding: 25px; color: darkred;"> 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
@@ -35,7 +35,7 @@ Jedes HTML-Element kann durch das Universalattribut `style` formatiert werden.
 
 Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man direkt mehrer HTML-Elemente durch die Regeln von CSS verändern. Diese Regeln werden dafür in dem `<style>`-Element zusammengefasst.
 
-* HTML-Code mit `<style>`-Element
+* HTML-Code mit `<style>`-Element:
     ```html
     <style>
         section {
@@ -51,9 +51,8 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
     ```
-
-
+* Ergebnis mit `<style>`-Element:  
     <section style="background-color: lightgrey;  color: green;">
-        <h3 style="color: darkgreen; font: Serif;">Lorem Ipsum</h3> 
+        <h3 style="color: darkgreen;">Lorem Ipsum</h3> 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
