@@ -21,3 +21,15 @@ Der zugehörige Stylesheet **muss** die folgenden Dinge enthalten:
 * mindestens eine zweite Schriftart
 * Gestaltung des Layouts (ab nächster Stunde, z.B. Flexbox)
 * Responsive Design (auch nächste Stunde)
+
+
+## Kontrolle
+
+Eine Bewertung erfolgt durch die Kontrolle mit den folgenden Validatoren:
+
+
+* [HTML5](https://validator.w3.org/), Character Encoding: UTF-8, Document Type: HTML5
+
+* [HTML5 (2)](https://html5.validator.nu/)
+
+* [CSS3](https://jigsaw.w3.org/css-validator/)
