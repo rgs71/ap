@@ -62,3 +62,42 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
         sed diam nonumy eirmod tempor invidunt ut labore
         et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
+
+
+## Einbinden eines Stylesheets
+
+Statt einem `<style>`-Element kann man auch diese Angaben in eine Datei auslagern und diese durch einen `<link>`-Element im `<head>` des HTML-Dokuments einbinden.
+
+* Neues HTML-Grundgerüst inklusive eingebundem Stylesheet:  
+
+    ```html
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/stylesheet.css">
+        <title>Titel</title>
+    </head>
+    <body>
+        <h1>Grundgerüst</h1>
+        <section>
+        Aufbau eines simplen HTML-Dokuments.
+        </section>
+    </body>
+    </html>
+    ```
+    Dabei befindet sich mit der HTML-Datei ein Unterorder `style` indem die Datei `stylesheet.css` ist.
+
+* Typischer Aufbau des Stylesheets:  
+    ```css
+    h1 {
+      color: green;
+    }
+    section {
+        color: lightgreen;
+        background-color: lightgrey;
+    }
+    ```
+
+
