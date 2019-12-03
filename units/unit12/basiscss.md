@@ -15,8 +15,8 @@ Jedes HTML-Element kann durch das Universalattribut `style` formatiert werden.
 
 * Ergebnis ohne `style`-Attribut  
     <section style="padding 25px;">
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-</section>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+    </section>
 
 * HTML-Code mit `style`-Element  
     ```html
@@ -27,8 +27,8 @@ Jedes HTML-Element kann durch das Universalattribut `style` formatiert werden.
 
 * Ergebnis mit `style`-Attribut  
     <section style="padding: 25px; color: darkred;"> 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-</section>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+    </section>
 
 
 
