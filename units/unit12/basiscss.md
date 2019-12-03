@@ -107,5 +107,12 @@ Statt einem `<style>`-Element kann man auch diese Angaben in eine Datei auslager
         background-color: lightgrey;
     }
     ```
+## Typische CSS-Elemente
 
+Typischer Weise benutzt man CSS um die Farbgebung, Schrift und das Layout einer Seite zu gestalten. Die folgenden Attribute können HTML-Elemente verändern und werden häufiger verwendet:
+
+* `color`: Schriftfarbe
+* `background-color`: Hintergrundfarbe
+* `font`: Schriftart
+* `size`: Schriftgröße
 
