@@ -27,7 +27,9 @@ Jedes HTML-Element kann durch das Universalattribut `style` formatiert werden.
 
 * Ergebnis mit `style`-Attribut:  
     <section style="padding: 25px; color: darkred;"> 
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore
+        et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
 
 
@@ -48,11 +50,15 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
     </style>
     <section>
         <h3>Lorem Ipsum</h3> 
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut labore et 
+        dolore magna aliquyam erat, sed diam voluptua. 
     </section>
     ```
 * Ergebnis mit `<style>`-Element:  
-    <section style="background-color: lightgrey;  color: green;">
+    <section style="background-color: lightgrey;  color: green; padding: 25px;">
         <h3 style="color: darkgreen;">Lorem Ipsum</h3> 
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore
+        et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
