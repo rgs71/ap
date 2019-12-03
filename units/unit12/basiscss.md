@@ -51,17 +51,8 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
     </section>
     ```
 
-    <style>
-        section {
-            background-color: lightgrey;
-            color: green;
-        }
-        h3 {
-            color: darkgreen;
-            font: serif;
-        }
-    </style>
-    <section>
-        <h3>Lorem Ipsum</h3> 
+
+    <section style="background-color: lightgrey;  color: green;">
+        <h3 style="color: darkgreen; font: serif;">Lorem Ipsum</h3> 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
