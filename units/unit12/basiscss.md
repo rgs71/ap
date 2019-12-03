@@ -39,7 +39,8 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
     ```html
     <style>
         section {
-            background-color: lightgreen;
+            background-color: lightgrey;
+            color: green;
         }
         h3 {
             color: darkgreen;
@@ -53,6 +54,6 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
 
 
     <section style="background-color: lightgrey;  color: green;">
-        <h3 style="color: darkgreen; font: serif;">Lorem Ipsum</h3> 
+        <h3 style="color: darkgreen; font: Serif;">Lorem Ipsum</h3> 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
