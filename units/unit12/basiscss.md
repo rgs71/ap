@@ -9,19 +9,25 @@ Jedes HTML-Element kann durch das Universalattribut `style` formatiert werden.
 * HTML-Code ohne `style`-Attribut:  
     ```html
     <section> 
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore
+        et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
     ```
 
 * Ergebnis ohne `style`-Attribut:  
     <section style="padding: 25px;">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore
+        et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
 
 * HTML-Code mit `style`-Element:  
     ```html
     <section style="color: darkred;"> 
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore
+        et dolore magna aliquyam erat, sed diam voluptua. 
     </section>
     ```
 
@@ -80,10 +86,12 @@ Statt einem `<style>`-Element kann man auch diese Angaben in eine Datei auslager
         <title>Titel</title>
     </head>
     <body>
-        <h1>Grundgerüst</h1>
         <section>
-        Aufbau eines simplen HTML-Dokuments.
-        </section>
+        <h3>Lorem Ipsum</h3> 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut labore et 
+        dolore magna aliquyam erat, sed diam voluptua. 
+    </section>
     </body>
     </html>
     ```
@@ -91,7 +99,7 @@ Statt einem `<style>`-Element kann man auch diese Angaben in eine Datei auslager
 
 * Typischer Aufbau des Stylesheets:  
     ```css
-    h1 {
+    h3 {
       color: green;
     }
     section {
