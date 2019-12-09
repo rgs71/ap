@@ -74,7 +74,7 @@ Statt einzelne HTML-Elemente durch das `style`-Attribut zu verändern, kann man 
 
 Statt einem `<style>`-Element kann man auch diese Angaben in eine Datei auslagern und diese durch einen `<link>`-Element im `<head>` des HTML-Dokuments einbinden.
 
-* Neues HTML-Grundgerüst inklusive eingebundem Stylesheet:  
+* Neues HTML-Grundgerüst inklusive eingebundenem Stylesheet:  
 
     ```html
     <!DOCTYPE html>
